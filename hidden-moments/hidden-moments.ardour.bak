@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="hidden-moments" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="6854" name-counter="1" event-counter="364" vca-counter="1">
+<Session version="6000" name="hidden-moments" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="6856" name-counter="1" event-counter="367" vca-counter="1">
   <ProgramVersion created-with="Ardour 6.9.0~ds0-1build1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -2765,7 +2765,7 @@
       <ExportFormat id="13765a92-0ab8-464e-ac1b-a5320572bf7d"/>
       <ExportFilename>
         <Folder relative="1" path="export"/>
-        <Field name="label" enabled="1" value="rob-drums-first-take"/>
+        <Field name="label" enabled="1" value="rob-drums-second-take"/>
         <Field name="session" enabled="1"/>
         <Field name="snapshot" enabled="0"/>
         <Field name="timespan" enabled="1"/>
