@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <instant>
   <LastUsedSnapshot name="hidden-moments"/>
-  <Main x="0" y="30" w="1920" h="1013" current-tab="editor"/>
-  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="1647" grid-type="GridTypeBeatDiv2" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapNormal" pre-internal-grid-type="GridTypeBeatDiv2" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" playhead="6863063" left-frame="6989749" y-origin="448" maximised="0" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="220500">
+  <Main x="0" y="30" w="1920" h="1021" current-tab="editor"/>
+  <Editor id="12" edit-horizontal-pane-pos="0.89999997615814209" notebook-shrunk="0" edit-vertical-pane-pos="0.89999997615814209" mixer-width="Wide" zoom-focus="ZoomFocusMouse" zoom="3664" grid-type="GridTypeBeatDiv8" snap-mode="SnapMagnetic" internal-grid-type="GridTypeBeat" internal-snap-mode="SnapNormal" pre-internal-grid-type="GridTypeBeatDiv8" pre-internal-snap-mode="SnapMagnetic" edit-point="EditAtMouse" visible-track-count="-1" playhead="6863063" left-frame="6732886" y-origin="514" maximised="0" follow-playhead="0" stationary-playhead="0" mouse-mode="MouseObject" join-object-range="0" show-editor-mixer="1" show-editor-list="1" editor-list-page="0" show-marker-lines="0" show-touched-automation="0" nudge-clock-value="220500">
     <Window name="Editor" visible="0" x-off="0" y-off="77" x-size="1920" y-size="927" tabbed="1"/>
     <Buttons>
       <Press/>
       <Release/>
     </Buttons>
     <Selection>
-      <StripableView id="1883"/>
+      <Regions>
+        <Region id="103869"/>
+        <Region id="103872"/>
+        <Region id="103875"/>
+        <Region id="103878"/>
+      </Regions>
       <MIDINotes region-id="16529">
         <note note-id="7413"/>
       </MIDINotes>
@@ -21,7 +26,7 @@
     <Window name="Mixer" visible="1" x-off="0" y-off="30" x-size="1920" y-size="1013" tabbed="0"/>
   </Mixer>
   <Preferences>
-    <Window name="Preferences" visible="0" x-off="0" y-off="0" x-size="1180" y-size="924" tabbed="0"/>
+    <Window name="Preferences" visible="0" x-off="0" y-off="0" x-size="838" y-size="735" tabbed="0"/>
   </Preferences>
   <Meterbridge show-meterbridge="0">
     <geometry x-size="600" y-size="400" x-pos="1" y-pos="1"/>
