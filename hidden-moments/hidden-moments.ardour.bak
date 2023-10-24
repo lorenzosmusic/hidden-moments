@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session version="6000" name="hidden-moments" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="103882" name-counter="1" event-counter="213993" vca-counter="1">
+<Session version="6000" name="hidden-moments" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="118844" name-counter="1" event-counter="256376" vca-counter="1">
   <ProgramVersion created-with="Ardour 6.9.0~ds0-1build1" modified-with="Ardour 6.9.0~ds0-1build1"/>
   <MIDIPorts>
     <Port name="MIDI Clock out" direction="output"/>
@@ -9,7 +9,7 @@
     <Port name="Scene in" direction="input"/>
     <Port name="Scene out" direction="output"/>
     <Port name="x-virtual-keyboard" direction="output">
-      <Connection other="ardour:midi bass/midi_in 1"/>
+      <Connection other="ardour:keys guitar/midi_in 1"/>
     </Port>
   </MIDIPorts>
   <Config>
@@ -1058,6 +1058,15 @@
     <Source name="Bass-21-47.wav" take-id="" type="audio" flags="" id="76161" natural-position="10848599" channel="0" origin="" gain="1"/>
     <Source name="Bass-21-48.wav" take-id="" type="audio" flags="" id="76171" natural-position="10650150" channel="0" origin="" gain="1"/>
     <Source name="Bass-21-49.wav" take-id="" type="audio" flags="" id="76180" natural-position="10782450" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-1.wav" take-id="2023-10-23 23.27.29" type="audio" flags="" id="115862" timestamp="1698121649" natural-position="10054800" captured-for="Tom Bridge guitar" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-2.wav" take-id="2023-10-23 23.29.25" type="audio" flags="" id="115905" timestamp="1698121765" natural-position="10021725" captured-for="Tom Bridge guitar" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-3.wav" take-id="2023-10-23 23.33.29" type="audio" flags="" id="115963" timestamp="1698122009" natural-position="10253250" captured-for="Tom Bridge guitar" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-4.wav" take-id="2023-10-23 23.35.26" type="audio" flags="" id="116100" timestamp="1698122126" natural-position="10253250" captured-for="Tom Bridge guitar" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-1-2.wav" take-id="" type="audio" flags="" id="116809" natural-position="10054800" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-1-3.wav" take-id="" type="audio" flags="" id="116841" natural-position="10054800" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-1-4.wav" take-id="" type="audio" flags="" id="116873" natural-position="10054800" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-2-2.wav" take-id="" type="audio" flags="" id="117051" natural-position="10120950" channel="0" origin="" gain="1"/>
+    <Source name="Tom Bridge guitar-3-2.wav" take-id="" type="audio" flags="" id="117329" natural-position="10385550" channel="0" origin="" gain="1"/>
   </Sources>
   <Regions>
     <Region name="rob-acoustic-guitar-melody_Selection" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="529200" position="7871850" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="174" type="audio" first-edit="nothing" source-0="170" source-1="172" master-source-0="170" master-source-1="172" channels="2"/>
@@ -1442,22 +1451,22 @@
     <Region name="Rob electric guitar-5.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2803106" length="16538" position="0" beat="0" sync-position="2803106" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102551" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2803106" length="16538" position="10054800" beat="608" sync-position="2803106" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="10" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102564" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2778300" length="33075" position="10079606" beat="609.499984882842" sync-position="2778300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102594" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
-    <Region name="Rob electric guitar-5.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2827912" length="281139" position="10120950" beat="612" sync-position="2819644" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102603" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
+    <Region name="Rob electric guitar-5.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2827912" length="281139" position="10120950" beat="612" sync-position="2827912" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102603" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2778300" length="16538" position="10079606" beat="609.499984882842" sync-position="2778300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102669" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2803107" length="16538" position="10087875" beat="610" sync-position="2803107" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102678" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2778300" length="8269" position="10112681" beat="611.499984882842" sync-position="2778300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="11" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102748" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2827912" length="24806" position="10120950" beat="612" sync-position="2827912" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102809" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
-    <Region name="Rob electric guitar-5.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2910600" length="198451" position="10145756" beat="613.499984882842" sync-position="2852718" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102818" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
+    <Region name="Rob electric guitar-5.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2910600" length="198451" position="10145756" beat="613.499984882842" sync-position="2910600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102818" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2910600" length="16538" position="10145756" beat="613.499984882842" sync-position="2910600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102868" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
-    <Region name="Rob electric guitar-5.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2920937" length="188114" position="10154025" beat="614" sync-position="2935407" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102877" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
+    <Region name="Rob electric guitar-5.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2920937" length="188114" position="10154025" beat="614" sync-position="2920937" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102877" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2937475" length="8268" position="10154025" beat="614" sync-position="2937475" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102941" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.16" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2945743" length="163308" position="10178831" beat="615.5" sync-position="2945743" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="102950" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.17" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2945743" length="8269" position="10319400" beat="624" sync-position="2945743" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103030" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
-    <Region name="Rob electric guitar-5.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3024296" length="84755" position="10187100" beat="616" sync-position="2954012" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103039" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
+    <Region name="Rob electric guitar-5.18" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3024296" length="84755" position="10187100" beat="616" sync-position="3024296" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103039" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.19" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3024296" length="16538" position="10327669" beat="624.50001511715789" sync-position="3024296" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="7" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103095" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
-    <Region name="Rob electric guitar-5.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3049102" length="59949" position="10211906" beat="617.499984882842" sync-position="3040834" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103104" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
+    <Region name="Rob electric guitar-5.20" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3049102" length="59949" position="10211906" beat="617.499984882842" sync-position="3049102" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103104" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.21" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3049102" length="8269" position="10352475" beat="626" sync-position="3049102" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="8" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103156" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
-    <Region name="Rob electric guitar-5.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3065640" length="33075" position="10360744" beat="626.50001511715789" sync-position="3057371" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103165" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
+    <Region name="Rob electric guitar-5.22" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="3065640" length="33075" position="10360744" beat="626.50001511715789" sync-position="3065640" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="9" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103165" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.23" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2778300" length="8269" position="10311131" beat="623.499984882842" sync-position="2778300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="12" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103257" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2778300" length="16538" position="10278056" beat="621.499984882842" sync-position="2778300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="13" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103267" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
     <Region name="Rob electric guitar-5.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="2803106" length="16538" position="10253250" beat="620" sync-position="2803106" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="14" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="103277" type="audio" first-edit="nothing" source-0="12570" master-source-0="12570" channels="1"/>
@@ -1475,8 +1484,45 @@
     <Region name="beat-3.24" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="132300" position="11377800" beat="688" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="29" tags="" contents="0" start-beats="0" length-beats="8" id="103826" type="midi" first-edit="nothing" source-0="16087" master-source-0="16087"/>
     <Region name="beat-3.25" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="132300" position="11245500" beat="680" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="30" tags="" contents="0" start-beats="0" length-beats="8" id="103829" type="midi" first-edit="nothing" source-0="16087" master-source-0="16087"/>
     <Region name="beat-3.26" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="132300" position="11113200" beat="672" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="31" tags="" contents="0" start-beats="0" length-beats="8" id="103832" type="midi" first-edit="nothing" source-0="16087" master-source-0="16087"/>
+    <Region name="Tom Bridge guitar-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="507888" position="10054800" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="115878" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-2" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="354288" position="10021725" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="115935" type="audio" first-edit="nothing" source-0="115905" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="665584" position="10253250" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116073" type="audio" first-edit="nothing" source-0="115963" master-source-0="115963" channels="1"/>
+    <Region name="Tom Bridge guitar-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="132300" length="533284" position="10385550" beat="628" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116081" type="audio" first-edit="nothing" source-0="115963" master-source-0="115963" channels="1"/>
+    <Region name="Tom Bridge guitar-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="198450" length="467134" position="10451700" beat="632" sync-position="198450" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116137" type="audio" first-edit="nothing" source-0="115963" master-source-0="115963" channels="1"/>
+    <Region name="Tom Bridge guitar-4" muted="0" opaque="1" locked="0" video-locked="0" automatic="1" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="926192" position="10253250" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116247" type="audio" first-edit="nothing" source-0="116100" master-source-0="116100" channels="1"/>
+    <Region name="Tom Bridge guitar-4.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="926192" position="10253250" beat="620" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116255" type="audio" first-edit="nothing" source-0="116100" master-source-0="116100" channels="1"/>
+    <Region name="Tom Bridge guitar-4.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="727647" position="10253250" beat="620" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116278" type="audio" first-edit="nothing" source-0="116100" master-source-0="116100" channels="1"/>
+    <Region name="Tom Bridge guitar-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="55814" position="10517850" beat="636" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="18" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116459" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-4.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="727647" length="66150" position="10449633" beat="631.8750113378685" sync-position="727647" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="19" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116473" type="audio" first-edit="nothing" source-0="116100" master-source-0="116100" channels="1"/>
+    <Region name="Tom Bridge guitar-3.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="132300" length="64083" position="10385550" beat="628" sync-position="132300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="20" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116487" type="audio" first-edit="nothing" source-0="115963" master-source-0="115963" channels="1"/>
+    <Region name="Tom Bridge guitar-1.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="64083" position="10319400" beat="624" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="21" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116501" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="66150" position="10253250" beat="620" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="22" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116515" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-2.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="99225" length="132300" position="10120950" beat="612" sync-position="99225" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="23" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116529" type="audio" first-edit="nothing" source-0="115905" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-1.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="64083" position="10054800" beat="608" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="24" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116543" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="64083" position="10054800" beat="608" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116790" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.9@112" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="64083" position="10054800" beat="0" sync-position="0" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="1.1224620342254639" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116811" type="audio" first-edit="nothing" source-0="116809" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.9@89" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="64083" position="10054800" beat="0" sync-position="0" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.89089870452880859" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116843" type="audio" first-edit="nothing" source-0="116841" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.9@79" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="64083" position="10054800" beat="0" sync-position="0" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.79599612951278687" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116875" type="audio" first-edit="nothing" source-0="116873" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.10" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26873" position="10054800" beat="0" sync-position="0" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.79599612951278687" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116897" type="audio" first-edit="nothing" source-0="116873" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.11" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="26873" length="37210" position="10081673" beat="609.625" sync-position="26873" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.79599612951278687" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116906" type="audio" first-edit="nothing" source-0="116873" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.12" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="26873" length="6202" position="10087875" beat="610" sync-position="26873" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.79599612951278687" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116928" type="audio" first-edit="nothing" source-0="116873" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.13" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="33075" length="22739" position="10087875" beat="610" sync-position="33075" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.79599612951278687" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116937" type="audio" first-edit="nothing" source-0="116873" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-2.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="99225" length="132300" position="10120950" beat="612" sync-position="99225" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117032" type="audio" first-edit="nothing" source-0="115905" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-2.3@79" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="132300" position="10120950" beat="0" sync-position="0" ancestral-start="99225" ancestral-length="132300" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="2" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117053" type="audio" first-edit="nothing" source-0="117051" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-2.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="24806" position="10120950" beat="0" sync-position="0" ancestral-start="99225" ancestral-length="132300" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117075" type="audio" first-edit="nothing" source-0="117051" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-2.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="33075" length="99225" position="10154025" beat="614" sync-position="24806" ancestral-start="99225" ancestral-length="132300" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117084" type="audio" first-edit="nothing" source-0="117051" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-2.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="33075" length="24806" position="10154025" beat="614" sync-position="33075" ancestral-start="99225" ancestral-length="132300" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117119" type="audio" first-edit="nothing" source-0="117051" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-2.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="66150" length="66150" position="10187100" beat="616" sync-position="57881" ancestral-start="99225" ancestral-length="132300" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117128" type="audio" first-edit="nothing" source-0="117051" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-2.8" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="66150" length="24806" position="10187100" beat="616" sync-position="66150" ancestral-start="99225" ancestral-length="132300" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="2" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117165" type="audio" first-edit="nothing" source-0="117051" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-2.9" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="99225" length="20672" position="10220175" beat="618" sync-position="90956" ancestral-start="99225" ancestral-length="132300" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117174" type="audio" first-edit="nothing" source-0="117051" master-source-0="115905" channels="1"/>
+    <Region name="Tom Bridge guitar-1.14" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26873" position="10253250" beat="620" sync-position="0" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.79599612951278687" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117274" type="audio" first-edit="nothing" source-0="116873" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-1.15" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="26873" position="10319400" beat="624" sync-position="0" ancestral-start="264600" ancestral-length="64083" stretch="1" shift="0.79599612951278687" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117292" type="audio" first-edit="nothing" source-0="116873" master-source-0="115862" channels="1"/>
+    <Region name="Tom Bridge guitar-3.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="132300" length="64083" position="10385550" beat="628" sync-position="132300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117310" type="audio" first-edit="nothing" source-0="115963" master-source-0="115963" channels="1"/>
+    <Region name="Tom Bridge guitar-3.5@79" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="22739" position="10385550" beat="0" sync-position="0" ancestral-start="132300" ancestral-length="64083" stretch="1" shift="0.79370051622390747" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="117331" type="audio" first-edit="nothing" source-0="117329" master-source-0="115963" channels="1"/>
   </Regions>
-  <Selection/>
+  <Selection>
+    <StripableAutomationControl stripable="16378" control="0" order="11"/>
+  </Selection>
   <Locations>
     <Location id="259" name="session" start="6863063" end="11658938" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1691468342"/>
     <Location id="1878" name="Loop" start="9988650" end="10584000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1694058852"/>
@@ -1502,6 +1548,7 @@
           <Connection other="Drums 8/audio_out 1"/>
           <Connection other="Percussive Bass/audio_out 1"/>
           <Connection other="Rob electric guitar/audio_out 1"/>
+          <Connection other="Tom Bridge guitar/audio_out 1"/>
           <Connection other="bass edit/audio_out 1"/>
           <Connection other="beat/audio_out 1"/>
           <Connection other="keys guitar/audio_out 1"/>
@@ -1521,6 +1568,7 @@
           <Connection other="Drums 8/audio_out 2"/>
           <Connection other="Percussive Bass/audio_out 2"/>
           <Connection other="Rob electric guitar/audio_out 2"/>
+          <Connection other="Tom Bridge guitar/audio_out 2"/>
           <Connection other="bass edit/audio_out 2"/>
           <Connection other="beat/audio_out 2"/>
           <Connection other="keys guitar/audio_out 2"/>
@@ -1582,7 +1630,7 @@
       <Slavable/>
     </Route>
     <Route version="6000" id="184" name="rob-acoustic-guitar-melody_Selection" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="2" audio-playlist="229" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="3855138047"/>
+      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="3855138047"/>
       <Controllable name="solo" id="192" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="198" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="200" flags="Toggle" value="0" solo-safe="0"/>
@@ -1654,7 +1702,7 @@
       <Controllable name="rec-enable" id="224" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="277" name="rob-acoustic-guitar-half-notes_Selection" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="2" audio-playlist="322" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="3" flags="AudioTrack,OrderSet" color="2145746943"/>
+      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="2145746943"/>
       <Controllable name="solo" id="285" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="291" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="293" flags="Toggle" value="0" solo-safe="0"/>
@@ -1722,7 +1770,7 @@
       <Controllable name="rec-enable" id="317" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="1883" name="Bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="12825" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="1925506559"/>
+      <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="1925506559"/>
       <Controllable name="solo" id="1891" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="1897" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="1899" flags="Toggle" value="0" solo-safe="0"/>
@@ -2393,7 +2441,7 @@
       <Controllable name="rec-enable" id="1923" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2088" name="Drums 1" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6147" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="3414025727"/>
+      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3414025727"/>
       <Controllable name="solo" id="2096" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2102" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2104" flags="Toggle" value="0" solo-safe="0"/>
@@ -2460,7 +2508,7 @@
       <Controllable name="rec-enable" id="2128" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2139" name="Drums 2" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6139" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="10" flags="AudioTrack,OrderSet" color="3851977727"/>
+      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="3851977727"/>
       <Controllable name="solo" id="2147" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2153" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2155" flags="Toggle" value="0" solo-safe="0"/>
@@ -2529,7 +2577,7 @@
       <Controllable name="rec-enable" id="2179" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2190" name="Drums 3" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6143" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="11" flags="AudioTrack,OrderSet" color="3519014399"/>
+      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3519014399"/>
       <Controllable name="solo" id="2198" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2204" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2206" flags="Toggle" value="0" solo-safe="0"/>
@@ -2596,7 +2644,7 @@
       <Controllable name="rec-enable" id="2230" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2241" name="Drums 4" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6163" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="12" flags="AudioTrack,OrderSet" color="3849508095"/>
+      <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="3849508095"/>
       <Controllable name="solo" id="2249" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2255" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2257" flags="Toggle" value="0" solo-safe="0"/>
@@ -2663,7 +2711,7 @@
       <Controllable name="rec-enable" id="2281" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2292" name="Drums 5" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6167" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="13" flags="AudioTrack,OrderSet" color="2714035711"/>
+      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="2714035711"/>
       <Controllable name="solo" id="2300" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2306" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2308" flags="Toggle" value="0" solo-safe="0"/>
@@ -2730,7 +2778,7 @@
       <Controllable name="rec-enable" id="2332" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2343" name="Drums 6" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6151" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="14" flags="AudioTrack,OrderSet" color="4024813567"/>
+      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="4024813567"/>
       <Controllable name="solo" id="2351" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2357" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2359" flags="Toggle" value="0" solo-safe="0"/>
@@ -2797,7 +2845,7 @@
       <Controllable name="rec-enable" id="2383" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2394" name="Drums 7" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6155" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="15" flags="AudioTrack,OrderSet" color="3436504575"/>
+      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="3436504575"/>
       <Controllable name="solo" id="2402" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2408" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2410" flags="Toggle" value="0" solo-safe="0"/>
@@ -2864,7 +2912,7 @@
       <Controllable name="rec-enable" id="2434" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="2445" name="Drums 8" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" route-group="drums" audio-playlist="6159" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="16" flags="AudioTrack,OrderSet" color="2632306943"/>
+      <PresentationInfo order="17" flags="AudioTrack,OrderSet" color="2632306943"/>
       <Controllable name="solo" id="2453" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="2459" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="2461" flags="Toggle" value="0" solo-safe="0"/>
@@ -2931,7 +2979,7 @@
       <Controllable name="rec-enable" id="2485" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="12175" name="Rob electric guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="12568" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="4" flags="AudioTrack,OrderSet" color="3849876223"/>
+      <PresentationInfo order="5" flags="AudioTrack,OrderSet" color="3849876223"/>
       <Controllable name="solo" id="12183" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="12189" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="12191" flags="Toggle" value="0" solo-safe="0"/>
@@ -2998,7 +3046,7 @@
       <Controllable name="rec-enable" id="12215" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="15938" name="beat" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="15983" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="17" flags="MidiTrack,OrderSet" color="3853428735"/>
+      <PresentationInfo order="18" flags="MidiTrack,OrderSet" color="3853428735"/>
       <Controllable name="solo" id="15946" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="15952" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="15954" flags="Toggle" value="0" solo-safe="0"/>
@@ -3089,7 +3137,9 @@
       <Controllable name="solo-iso" id="16392" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="16394" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="keys guitar" id="16406" direction="Input" default-type="midi">
-        <Port type="midi" name="keys guitar/midi_in 1"/>
+        <Port type="midi" name="keys guitar/midi_in 1">
+          <Connection other="x-virtual-keyboard"/>
+        </Port>
       </IO>
       <IO name="keys guitar" id="16407" direction="Output" default-type="midi">
         <Port type="audio" name="keys guitar/audio_out 1">
@@ -3115,7 +3165,9 @@
       </Automation>
       <Comment>Notes
 Was originally using twang 2 sound in the guitar bank of Yoshimi
-Switched to the plucked string1 in the plucked bank of Yoshimi to get something closer to the guitar. It's not but closer.</Comment>
+Switched to the plucked string1 in the plucked bank of Yoshimi to get something closer to the guitar. It's not but closer.
+
+**Switched Yoshimi sound to Nylon Guitar in the will gondfey collection bank to go with guitar tom recorded</Comment>
       <Pannable>
         <Controllable name="pan-azimuth" id="16397" flags="" value="0.5"/>
         <Controllable name="pan-width" id="16401" flags="" value="0"/>
@@ -3158,7 +3210,7 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
           <Channelmap type="audio" from="1" to="1"/>
         </OutputMap-0>
         <ThruMap/>
-        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0" state-dir="state3">
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state10">
           <Port symbol="lv2_freewheel" value="0"/>
         </lv2>
         <Controllable name="hidden" id="16537" flags="Toggle" value="0" parameter="1" symbol="lv2_freewheel"/>
@@ -3179,7 +3231,7 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
       <Controllable name="rec-enable" id="16418" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="24881" name="bass edit" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="24926" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="8" flags="AudioTrack,OrderSet" color="2447733503"/>
+      <PresentationInfo order="9" flags="AudioTrack,OrderSet" color="2447733503"/>
       <Controllable name="solo" id="24889" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="24895" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="24897" flags="Toggle" value="0" solo-safe="0"/>
@@ -3246,14 +3298,12 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
       <Controllable name="rec-enable" id="24921" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="25824" name="midi bass" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="25869" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
-      <PresentationInfo order="7" flags="MidiTrack,OrderSet" color="2915100159"/>
+      <PresentationInfo order="8" flags="MidiTrack,OrderSet" color="2915100159"/>
       <Controllable name="solo" id="25832" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="25838" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="25840" flags="Toggle" value="0" solo-safe="0"/>
       <IO name="midi bass" id="25852" direction="Input" default-type="midi">
-        <Port type="midi" name="midi bass/midi_in 1">
-          <Connection other="x-virtual-keyboard"/>
-        </Port>
+        <Port type="midi" name="midi bass/midi_in 1"/>
       </IO>
       <IO name="midi bass" id="25853" direction="Output" default-type="midi">
         <Port type="audio" name="midi bass/audio_out 1">
@@ -3338,7 +3388,7 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
       <Controllable name="rec-enable" id="25864" flags="Toggle,RealTime" value="0"/>
     </Route>
     <Route version="6000" id="67600" name="Percussive Bass" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="67397" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
-      <PresentationInfo order="6" flags="AudioTrack,OrderSet" color="1925506559"/>
+      <PresentationInfo order="7" flags="AudioTrack,OrderSet" color="1925506559"/>
       <Controllable name="solo" id="67563" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
       <Controllable name="solo-iso" id="68382" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
       <Controllable name="solo-safe" id="68383" flags="Toggle" value="0" solo-safe="0"/>
@@ -4007,6 +4057,229 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
       <Controllable name="monitor" id="68396" flags="RealTime" value="0" monitoring=""/>
       <Controllable name="rec-safe" id="68397" flags="Toggle,RealTime" value="0"/>
       <Controllable name="rec-enable" id="68398" flags="Toggle,RealTime" value="0"/>
+    </Route>
+    <Route version="6000" id="115815" name="Tom Bridge guitar" default-type="audio" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" audio-playlist="115860" saved-meter-point="MeterPostFader" alignment-choice="Automatic" mode="Normal">
+      <PresentationInfo order="2" flags="AudioTrack,OrderSet" color="1927643903"/>
+      <Controllable name="solo" id="115823" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="115829" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="115831" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Tom Bridge guitar" id="115843" direction="Input" default-type="audio">
+        <Port type="audio" name="Tom Bridge guitar/audio_in 1">
+          <Connection other="system:capture_13"/>
+        </Port>
+      </IO>
+      <IO name="Tom Bridge guitar" id="115844" direction="Output" default-type="audio">
+        <Port type="audio" name="Tom Bridge guitar/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Tom Bridge guitar/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="115825" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="115827" flags="Toggle" value="0" phase-invert="0"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="115822" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="115828" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="115830" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="115824" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="115854" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="115856" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="115826" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="115858" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="115834" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="115838" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="115836" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="115840" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="115842" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="115833" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="115835" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="115837" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="115839" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="115841" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="115853" name="recorder:Tom Bridge guitar" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="115852" name="player:Tom Bridge guitar" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="115846" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="115848" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="115820" interpolation-style="Logarithmic" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="115821" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="115845" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="115818" interpolation-style="Exponential" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="115819" flags="GainLike" value="0.66907095909118652"/>
+      </Processor>
+      <Processor id="116654" name="x42-eq - Parametric Equalizer Mono" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/fil4#mono" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-2" id="116655" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="116657" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="116659" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="116661" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-7" id="116663" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-8" id="116665" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="116667" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="116669" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-11" id="116671" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-12" id="116673" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-13" id="116675" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-14" id="116677" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-15" id="116679" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-16" id="116681" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-17" id="116683" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-18" id="116685" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-19" id="116687" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-20" id="116689" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-21" id="116691" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-22" id="116693" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-23" id="116695" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-24" id="116697" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-25" id="116699" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-26" id="116701" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-27" id="116703" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-28" id="116705" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-29" id="116707" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-30" id="116709" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-31" id="116711" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-32" id="116713" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-33" id="116715" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-34" id="116717" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-35" id="116719" interpolation-style="Linear" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1" state-dir="state1">
+          <Port symbol="enable" value="1"/>
+          <Port symbol="gain" value="0"/>
+          <Port symbol="peakreset" value="1"/>
+          <Port symbol="HighPass" value="0"/>
+          <Port symbol="HPfreq" value="20"/>
+          <Port symbol="HPQ" value="0.69999998807907104"/>
+          <Port symbol="LowPass" value="0"/>
+          <Port symbol="LPfreq" value="20000"/>
+          <Port symbol="LPQ" value="1"/>
+          <Port symbol="LSsec" value="1"/>
+          <Port symbol="LSfreq" value="80"/>
+          <Port symbol="LSq" value="1"/>
+          <Port symbol="LSgain" value="0"/>
+          <Port symbol="sec1" value="1"/>
+          <Port symbol="freq1" value="923.38983154296875"/>
+          <Port symbol="q1" value="0.60000002384185791"/>
+          <Port symbol="gain1" value="8.8000011444091797"/>
+          <Port symbol="sec2" value="1"/>
+          <Port symbol="freq2" value="397.00009155273438"/>
+          <Port symbol="q2" value="0.60000002384185791"/>
+          <Port symbol="gain2" value="0"/>
+          <Port symbol="sec3" value="1"/>
+          <Port symbol="freq3" value="1688.5771484375"/>
+          <Port symbol="q3" value="0.60000002384185791"/>
+          <Port symbol="gain3" value="4.3999996185302734"/>
+          <Port symbol="sec4" value="1"/>
+          <Port symbol="freq4" value="2500.000244140625"/>
+          <Port symbol="q4" value="0.60000002384185791"/>
+          <Port symbol="gain4" value="0"/>
+          <Port symbol="HSsec" value="1"/>
+          <Port symbol="HSfreq" value="5867.2744140625"/>
+          <Port symbol="HSq" value="1"/>
+          <Port symbol="HSgain" value="-10.399999618530273"/>
+        </lv2>
+        <Controllable name="Enable" id="116656" flags="Toggle" value="1" parameter="2" symbol="enable"/>
+        <Controllable name="Gain" id="116658" flags="" value="0" parameter="3" symbol="gain"/>
+        <Controllable name="Reset Peak Hold" id="116660" flags="Toggle" value="1" parameter="5" symbol="peakreset"/>
+        <Controllable name="Highpass" id="116662" flags="Toggle" value="0" parameter="6" symbol="HighPass"/>
+        <Controllable name="Highpass Frequency" id="116664" flags="" value="20" parameter="7" symbol="HPfreq"/>
+        <Controllable name="HighPass Resonance" id="116666" flags="" value="0.69999998807907104" parameter="8" symbol="HPQ"/>
+        <Controllable name="Lowpass" id="116668" flags="Toggle" value="0" parameter="9" symbol="LowPass"/>
+        <Controllable name="Lowpass Frequency" id="116670" flags="" value="20000" parameter="10" symbol="LPfreq"/>
+        <Controllable name="LowPass Resonance" id="116672" flags="" value="1" parameter="11" symbol="LPQ"/>
+        <Controllable name="Lowshelf" id="116674" flags="Toggle" value="1" parameter="12" symbol="LSsec"/>
+        <Controllable name="Lowshelf Frequency" id="116676" flags="" value="80" parameter="13" symbol="LSfreq"/>
+        <Controllable name="Lowshelf Bandwidth" id="116678" flags="" value="1" parameter="14" symbol="LSq"/>
+        <Controllable name="Lowshelf Gain" id="116680" flags="" value="0" parameter="15" symbol="LSgain"/>
+        <Controllable name="Section 1" id="116682" flags="Toggle" value="1" parameter="16" symbol="sec1"/>
+        <Controllable name="Frequency 1" id="116684" flags="" value="923.38983154296875" parameter="17" symbol="freq1"/>
+        <Controllable name="Bandwidth 1" id="116686" flags="" value="0.60000002384185791" parameter="18" symbol="q1"/>
+        <Controllable name="Gain 1" id="116688" flags="" value="8.8000011444091797" parameter="19" symbol="gain1"/>
+        <Controllable name="Section 2" id="116690" flags="Toggle" value="1" parameter="20" symbol="sec2"/>
+        <Controllable name="Frequency 2" id="116692" flags="" value="397.00009155273438" parameter="21" symbol="freq2"/>
+        <Controllable name="Bandwidth 2" id="116694" flags="" value="0.60000002384185791" parameter="22" symbol="q2"/>
+        <Controllable name="Gain 2" id="116696" flags="" value="0" parameter="23" symbol="gain2"/>
+        <Controllable name="Section 3" id="116698" flags="Toggle" value="1" parameter="24" symbol="sec3"/>
+        <Controllable name="Frequency 3" id="116700" flags="" value="1688.5771484375" parameter="25" symbol="freq3"/>
+        <Controllable name="Bandwidth 3" id="116702" flags="" value="0.60000002384185791" parameter="26" symbol="q3"/>
+        <Controllable name="Gain 3" id="116704" flags="" value="4.3999996185302734" parameter="27" symbol="gain3"/>
+        <Controllable name="Section 4" id="116706" flags="Toggle" value="1" parameter="28" symbol="sec4"/>
+        <Controllable name="Frequency 4" id="116708" flags="" value="2500.000244140625" parameter="29" symbol="freq4"/>
+        <Controllable name="Bandwidth 4" id="116710" flags="" value="0.60000002384185791" parameter="30" symbol="q4"/>
+        <Controllable name="Gain 4" id="116712" flags="" value="0" parameter="31" symbol="gain4"/>
+        <Controllable name="Highshelf" id="116714" flags="Toggle" value="1" parameter="32" symbol="HSsec"/>
+        <Controllable name="Highshelf Frequency" id="116716" flags="" value="5867.2744140625" parameter="33" symbol="HSfreq"/>
+        <Controllable name="Highshelf Bandwidth" id="116718" flags="" value="1" parameter="34" symbol="HSq"/>
+        <Controllable name="Highshelf Gain" id="116720" flags="" value="-10.399999618530273" parameter="35" symbol="HSgain"/>
+      </Processor>
+      <Processor id="116724" name="ACE Reverb" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-reverb" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-4" id="116725" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="116727" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-6" id="116729" interpolation-style="Discrete" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="2"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+          <Port symbol="blend" value="0.21134020388126373"/>
+          <Port symbol="roomsz" value="0.5"/>
+          <Port symbol="enable" value="1"/>
+        </lv2>
+        <Controllable name="Blend" id="116726" flags="" value="0.21134020388126373" parameter="4" symbol="blend"/>
+        <Controllable name="Room Size" id="116728" flags="" value="0.5" parameter="5" symbol="roomsz"/>
+        <Controllable name="Enable" id="116730" flags="Toggle" value="1" parameter="6" symbol="enable"/>
+      </Processor>
+      <Processor id="115849" name="meter-Tom Bridge guitar" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="115850" name="Tom Bridge guitar" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Tom Bridge guitar" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="115859" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="115857" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="115855" flags="Toggle,RealTime" value="0"/>
     </Route>
   </Routes>
   <Playlists>
@@ -36025,6 +36298,267 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
         </InverseFadeOut>
       </Region>
     </Playlist>
+    <Playlist id="115860" name="Tom Bridge guitar" type="audio" orig-track-id="115815" pgroup-id="2023-10-23 23.27.29" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="Tom Bridge guitar-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="64083" position="10054800" beat="608" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="0" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="115886" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="115891" interpolation-style="Exponential" state="Off">
+            <events>0 1.0000001000000001
+64083 1.0000002728100068
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="115887" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="115888" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="115889" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="115890" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Tom Bridge guitar-2.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="99225" length="132300" position="10120950" beat="612" sync-position="99225" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="1" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="115943" type="audio" first-edit="nothing" source-0="115905" master-source-0="115905" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="115948" interpolation-style="Exponential" state="Off">
+            <events>0 1.0000001000000001
+132300 1.0000001481304626
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="115944" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="115945" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="115946" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="115947" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Tom Bridge guitar-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="66150" position="10253250" beat="620" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="2" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116011" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="116017" interpolation-style="Exponential" state="Off">
+            <events>0 1.0000001000000001
+66150 1.0000001728100067
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="116012" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="116013" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="116014" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="116015" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Tom Bridge guitar-1.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="64083" position="10319400" beat="624" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="3" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116029" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="116035" interpolation-style="Exponential" state="Off">
+            <events>0 1.0000001000000001
+64083 1.0000002728100068
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="116030" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="116031" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="116032" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="116033" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Tom Bridge guitar-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="132300" length="64083" position="10385550" beat="628" sync-position="132300" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="4" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116128" type="audio" first-edit="nothing" source-0="115963" master-source-0="115963" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="116134" interpolation-style="Exponential" state="Off">
+            <events>0 1.0000001000000001
+64083 1.0000002875957288
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="116129" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="116130" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="116131" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="116132" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Tom Bridge guitar-4.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="727647" length="66150" position="10449633" beat="631.8750113378685" sync-position="727647" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="5" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116287" type="audio" first-edit="nothing" source-0="116100" master-source-0="116100" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="116293" interpolation-style="Exponential" state="Off">
+            <events>0 1.0000001000000001
+66150 1.0000002656415452
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="116288" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="116289" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="116290" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="116291" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+      <Region name="Tom Bridge guitar-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="0" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="264600" length="55814" position="10517850" beat="636" sync-position="264600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="AudioTime" layering-index="6" tags="" contents="0" envelope-active="0" default-fade-in="0" default-fade-out="0" fade-in-active="1" fade-out-active="1" scale-amplitude="1" id="116385" type="audio" first-edit="nothing" source-0="115862" master-source-0="115862" channels="1">
+        <Envelope>
+          <AutomationList automation-id="envelope" id="116391" interpolation-style="Exponential" state="Off">
+            <events>0 1.0000001000000001
+55814 1.0000004469402142
+</events>
+          </AutomationList>
+        </Envelope>
+        <FadeIn>
+          <AutomationList automation-id="fadein" id="116386" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </FadeIn>
+        <InverseFadeIn>
+          <AutomationList automation-id="fadein" id="116387" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </InverseFadeIn>
+        <FadeOut>
+          <AutomationList automation-id="fadeout" id="116388" interpolation-style="Curved" state="Off">
+            <events>0 1
+64 1.0000000116860974e-07
+</events>
+          </AutomationList>
+        </FadeOut>
+        <InverseFadeOut>
+          <AutomationList automation-id="fadeout" id="116389" interpolation-style="Curved" state="Off">
+            <events>0 1.0000000116860974e-07
+64 1
+</events>
+          </AutomationList>
+        </InverseFadeOut>
+      </Region>
+    </Playlist>
   </Playlists>
   <UnusedPlaylists>
     <Playlist id="1928" name="Audio 1" type="audio" orig-track-id="1883" pgroup-id="2023-09-06 23.35.46" shared-with-ids="" frozen="0" combine-ops="0">
@@ -37281,12 +37815,12 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
       <Window name="RPM-2394" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-2445" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="RPM-15938" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-16378-16535" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
+      <Window name="PM-16378-16535" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-1883-54842" visible="0" x-off="0" y-off="0" x-size="1144" y-size="591" custom-ui="1"/>
       <Window name="P-1883-54910" visible="0" x-off="0" y-off="0" x-size="1037" y-size="717" custom-ui="1"/>
       <Window name="PM-1883-54842" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="PM-1883-54910" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
-      <Window name="P-16378-16535" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
-      <Window name="PM-16378-16535" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-67600-67726" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1" custom-ui="1"/>
       <Window name="P-67600-68224" visible="0" x-off="0" y-off="0" x-size="1037" y-size="717" custom-ui="1"/>
       <Window name="PM-67600-67726" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
@@ -37295,6 +37829,11 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
       <Window name="PM-25824-25978" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <Window name="P-15938-16082" visible="0" x-off="399" y-off="406" x-size="800" y-size="434" custom-ui="1"/>
       <Window name="PM-15938-16082" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-115815" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-115815-116654" visible="0" x-off="651" y-off="0" x-size="769" y-size="455" custom-ui="1"/>
+      <Window name="PM-115815-116654" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-115815-116724" visible="0" x-off="790" y-off="0" x-size="490" y-size="237" custom-ui="0"/>
+      <Window name="PM-115815-116724" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
       <GUIObjectState>
         <Object id="rtav 64" height="66" visible="1"/>
         <Object id="automation 68" height="66" visible="0"/>
@@ -37622,6 +38161,61 @@ Switched to the plucked string1 in the plucked bank of Yoshimi to get something 
             <Object id="control 68100" visible="0"/>
             <Object id="control 68101" visible="0"/>
             <Object id="InlineDisplay" visible="1"/>
+          </Object>
+        </Object>
+        <Object id="rtav 115815" height="66" visible="1"/>
+        <Object id="automation 115819" height="66" visible="0"/>
+        <Object id="automation 115821" height="66" visible="0"/>
+        <Object id="automation 115815 12/0/0" height="66" visible="0"/>
+        <Object id="automation 115834" height="66" visible="0"/>
+        <Object id="strip 115815" visible="1">
+          <Object id="processor 115845">
+            <Object id="control 115819" visible="0"/>
+          </Object>
+          <Object id="processor 116654">
+            <Object id="control 116656" visible="0"/>
+            <Object id="control 116658" visible="0"/>
+            <Object id="control 116660" visible="0"/>
+            <Object id="control 116662" visible="0"/>
+            <Object id="control 116664" visible="0"/>
+            <Object id="control 116666" visible="0"/>
+            <Object id="control 116668" visible="0"/>
+            <Object id="control 116670" visible="0"/>
+            <Object id="control 116672" visible="0"/>
+            <Object id="control 116674" visible="0"/>
+            <Object id="control 116676" visible="0"/>
+            <Object id="control 116678" visible="0"/>
+            <Object id="control 116680" visible="0"/>
+            <Object id="control 116682" visible="0"/>
+            <Object id="control 116684" visible="0"/>
+            <Object id="control 116686" visible="0"/>
+            <Object id="control 116688" visible="0"/>
+            <Object id="control 116690" visible="0"/>
+            <Object id="control 116692" visible="0"/>
+            <Object id="control 116694" visible="0"/>
+            <Object id="control 116696" visible="0"/>
+            <Object id="control 116698" visible="0"/>
+            <Object id="control 116700" visible="0"/>
+            <Object id="control 116702" visible="0"/>
+            <Object id="control 116704" visible="0"/>
+            <Object id="control 116706" visible="0"/>
+            <Object id="control 116708" visible="0"/>
+            <Object id="control 116710" visible="0"/>
+            <Object id="control 116712" visible="0"/>
+            <Object id="control 116714" visible="0"/>
+            <Object id="control 116716" visible="0"/>
+            <Object id="control 116718" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
+          </Object>
+          <Object id="processor 116724">
+            <Object id="control 116726" visible="0"/>
+            <Object id="control 116728" visible="0"/>
+            <Object id="control 116730" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 116734" visible="1">
+          <Object id="processor 116764">
+            <Object id="control 116738" visible="0"/>
           </Object>
         </Object>
       </GUIObjectState>
