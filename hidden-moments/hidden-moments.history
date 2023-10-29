@@ -1,152 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1698123001" tv-usec="805714" name="region copy">
-    <StatefulDiffCommand obj-id="116779" type-name="ARDOUR::AudioPlaylist">
+  <UndoTransaction tv-sec="1698559083" tv-usec="757196" name="region copy">
+    <StatefulDiffCommand obj-id="67397" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Add id="117274"/>
+          <Add id="153331"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="240" left-frame="10000526" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
         <Selection>
           <Regions>
-            <Region id="116897"/>
+            <Region id="149270"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="240" left-frame="10000526" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
         <Selection>
           <Regions>
-            <Region id="117274"/>
+            <Region id="153331"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1698123013" tv-usec="799255" name="region copy">
-    <StatefulDiffCommand obj-id="116779" type-name="ARDOUR::AudioPlaylist">
+  <UndoTransaction tv-sec="1698559093" tv-usec="953802" name="region drag">
+    <StatefulDiffCommand obj-id="153331" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <Regions>
-          <Add id="117292"/>
-        </Regions>
+        <position from="13494054" to="13461525"/>
+        <beat from="815.96698412698413" to="814"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="480" left-frame="9820766" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
         <Selection>
           <Regions>
-            <Region id="117274"/>
+            <Region id="153331"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="480" left-frame="9820766" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
         <Selection>
           <Regions>
-            <Region id="117292"/>
+            <Region id="153331"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1698123036" tv-usec="794720" name="region copy">
-    <StatefulDiffCommand obj-id="116779" type-name="ARDOUR::AudioPlaylist">
+  <UndoTransaction tv-sec="1698559096" tv-usec="757325" name="Region start trim">
+    <StatefulDiffCommand obj-id="153331" type-name="ARDOUR::AudioRegion">
       <Changes>
-        <Regions>
-          <Add id="117310"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="480" left-frame="9987806" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="116128"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="480" left-frame="9987806" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="117310"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123048" tv-usec="488043" name="pitch shift">
-    <StatefulDiffCommand obj-id="116779" type-name="ARDOUR::AudioPlaylist">
-      <Changes>
-        <Regions>
-          <Add id="117331"/>
-          <Remove id="117310"/>
-        </Regions>
-      </Changes>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="480" left-frame="9987806" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="117310"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="480" left-frame="9987806" y-origin="0">
-        <Selection>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123054" tv-usec="708541" name="Region end trim">
-    <StatefulDiffCommand obj-id="117331" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <whole-file from="1" to="0"/>
-        <length from="64083" to="22739"/>
+        <start from="16537" to="245449"/>
+        <length from="330750" to="101838"/>
+        <position from="13461525" to="13690437"/>
+        <beat from="814" to="827.84199546485252"/>
         <Envelope>
           <from>
-            <AutomationList automation-id="envelope" id="117369" interpolation-style="Exponential" state="Off">
+            <AutomationList automation-id="envelope" id="154427" interpolation-style="Exponential" state="Off">
               <events>0 1.0000001000000001
-64083 1.0000002875957288
+330750 1.0000001932947418
 </events>
             </AutomationList>
           </from>
           <to>
-            <AutomationList automation-id="envelope" id="117370" interpolation-style="Exponential" state="Off">
-              <events>0 1.0000001000000001
-22739 1.0000002665658472
+            <AutomationList automation-id="envelope" id="154428" interpolation-style="Exponential" state="Off">
+              <events>0 1.0000002932947418
+101838 1.0000001932947418
 </events>
             </AutomationList>
           </to>
@@ -154,4406 +87,546 @@
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="120" left-frame="10330166" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
         <Selection>
           <Regions>
-            <Region id="117331"/>
+            <Region id="153331"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="120" left-frame="10330166" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
         <Selection>
           <Regions>
-            <Region id="117331"/>
+            <Region id="153331"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1698123089" tv-usec="74378" name="delete objects">
-    <StatefulDiffCommand obj-id="116779" type-name="ARDOUR::AudioPlaylist">
+  <UndoTransaction tv-sec="1698559105" tv-usec="175628" name="Region end trim">
+    <StatefulDiffCommand obj-id="153331" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <length from="101838" to="43957"/>
+        <Envelope>
+          <from>
+            <AutomationList automation-id="envelope" id="155483" interpolation-style="Exponential" state="Off">
+              <events>0 1.0000002932947418
+101838 1.0000001932947418
+</events>
+            </AutomationList>
+          </from>
+          <to>
+            <AutomationList automation-id="envelope" id="155484" interpolation-style="Exponential" state="Off">
+              <events>0 1.0000002932947418
+43957 1.0000003501310915
+</events>
+            </AutomationList>
+          </to>
+        </Envelope>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
+        <Selection>
+          <Regions>
+            <Region id="153331"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="456" left-frame="13405375" y-origin="580">
+        <Selection>
+          <Regions>
+            <Region id="153331"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559147" tv-usec="843963" name="region copy">
+    <StatefulDiffCommand obj-id="67397" type-name="ARDOUR::AudioPlaylist">
       <Changes>
         <Regions>
-          <Remove id="117292"/>
-          <Remove id="117075"/>
-          <Remove id="117274"/>
-          <Remove id="117165"/>
-          <Remove id="116897"/>
-          <Remove id="117331"/>
+          <Add id="155487"/>
         </Regions>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="1920" left-frame="9783566" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="12550376" y-origin="580">
         <Selection>
           <Regions>
-            <Region id="117331"/>
-            <Region id="117292"/>
-            <Region id="117274"/>
-            <Region id="117165"/>
-            <Region id="117075"/>
-            <Region id="116897"/>
+            <Region id="150040"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="1920" left-frame="9783566" y-origin="0">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="12550376" y-origin="580">
         <Selection>
+          <Regions>
+            <Region id="155487"/>
+          </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1698123264" tv-usec="992865" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="7861221" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="7861221" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123287" tv-usec="784001" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123290" tv-usec="836388" name="region drag">
-    <StatefulDiffCommand obj-id="30539" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30569" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30598" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30627" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30656" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30685" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30714" type-name="ARDOUR::AudioRegion">
-      <Changes/>
-    </StatefulDiffCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123297" tv-usec="423175" name="set fade in shape">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123339" tv-usec="90732" name="set fade in shape">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.0015399249969050288
-1744.21875 0.0019109511049464345
-2325.625 0.002371371490880847
-2907.03125 0.0029427246190607548
-3488.4375 0.003651738166809082
-4069.84375 0.0045315800234675407
-4651.25 0.0056234090588986874
-5232.65625 0.006978300865739584
-5814.0625 0.0086596375331282616
-6395.46875 0.010746072046458721
-6976.875 0.013335206545889378
-7558.28125 0.016548162326216698
-8139.6875 0.020535239949822426
-8721.09375 0.025482956320047379
-9302.5 0.031622763723134995
-9883.90625 0.039241883903741837
-10465.3125 0.048696737736463547
-11046.71875 0.060429621487855911
-11628.125 0.074989400804042816
-12209.53125 0.09305717796087265
-12790.9375 0.11547817289829254
-13372.34375 0.14330123364925385
-13953.75 0.17782790958881378
-14535.15625 0.22067336738109589
-15116.5625 0.27384191751480103
-15697.96875 0.33982077240943909
-16279.375 0.42169642448425293
-16860.78125 0.52329903841018677
-17442.1875 0.64938157796859741
-18023.59375 0.80584216117858887
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7931388" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123349" tv-usec="630772" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1162.8125 0.00030300187063403428
-1744.21875 0.00051356520270928741
-2325.625 0.00085512804798781872
-2907.03125 0.0013987881829962134
-3488.4375 0.0022478005848824978
-4069.84375 0.0035485327243804932
-4651.25 0.0055033215321600437
-5232.65625 0.0083846747875213623
-5814.0625 0.012549684382975101
-6395.46875 0.01845289021730423
-6976.875 0.026655165478587151
-7558.28125 0.037825372070074081
-8139.6875 0.052731525152921677
-8721.09375 0.072217538952827454
-9302.5 0.097162812948226929
-9883.90625 0.12842294573783875
-10465.3125 0.16675174236297607
-11046.71875 0.21270774304866791
-11628.125 0.26655161380767822
-12209.53125 0.32814401388168335
-12790.9375 0.39685589075088501
-13372.34375 0.47150507569313049
-13953.75 0.55033236742019653
-14535.15625 0.63102835416793823
-15116.5625 0.71081709861755371
-15697.96875 0.78659647703170776
-16279.375 0.85512828826904297
-16860.78125 0.91326272487640381
-17442.1875 0.95817607641220093
-18023.59375 0.9875977635383606
-18605 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123354" tv-usec="39537" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-775.1875 0.00030300187063403428
-1162.78125 0.00051356520270928741
-1550.375 0.00085512804798781872
-1937.96875 0.0013987881829962134
-2325.5625 0.0022478005848824978
-2713.15625 0.0035485327243804932
-3100.75 0.0055033215321600437
-3488.34375 0.0083846747875213623
-3875.9375 0.012549684382975101
-4263.53125 0.01845289021730423
-4651.125 0.026655165478587151
-5038.71875 0.037825372070074081
-5426.3125 0.052731525152921677
-5813.90625 0.072217538952827454
-6201.5 0.097162812948226929
-6589.09375 0.12842294573783875
-6976.6875 0.16675174236297607
-7364.28125 0.21270774304866791
-7751.875 0.26655161380767822
-8139.46875 0.32814401388168335
-8527.0625 0.39685589075088501
-8914.65625 0.47150507569313049
-9302.25 0.55033236742019653
-9689.84375 0.63102835416793823
-10077.4375 0.71081709861755371
-10465.03125 0.78659647703170776
-10852.625 0.85512828826904297
-11240.21875 0.91326272487640381
-11627.8125 0.95817607641220093
-12015.40625 0.9875977635383606
-12403 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123359" tv-usec="326898" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-516.8125 0.00030300187063403428
-775.21875 0.00051356520270928741
-1033.625 0.00085512804798781872
-1292.03125 0.0013987881829962134
-1550.4375 0.0022478005848824978
-1808.84375 0.0035485327243804932
-2067.25 0.0055033215321600437
-2325.65625 0.0083846747875213623
-2584.0625 0.012549684382975101
-2842.46875 0.01845289021730423
-3100.875 0.026655165478587151
-3359.28125 0.037825372070074081
-3617.6875 0.052731525152921677
-3876.09375 0.072217538952827454
-4134.5 0.097162812948226929
-4392.90625 0.12842294573783875
-4651.3125 0.16675174236297607
-4909.71875 0.21270774304866791
-5168.125 0.26655161380767822
-5426.53125 0.32814401388168335
-5684.9375 0.39685589075088501
-5943.34375 0.47150507569313049
-6201.75 0.55033236742019653
-6460.15625 0.63102835416793823
-6718.5625 0.71081709861755371
-6976.96875 0.78659647703170776
-7235.375 0.85512828826904297
-7493.78125 0.91326272487640381
-7752.1875 0.95817607641220093
-8010.59375 0.9875977635383606
-8269 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123366" tv-usec="480441" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1808.8125 0.00030300187063403428
-2713.21875 0.00051356520270928741
-3617.625 0.00085512804798781872
-4522.03125 0.0013987881829962134
-5426.4375 0.0022478005848824978
-6330.84375 0.0035485327243804932
-7235.25 0.0055033215321600437
-8139.6562499999991 0.0083846747875213623
-9044.0625 0.012549684382975101
-9948.46875 0.01845289021730423
-10852.875 0.026655165478587151
-11757.28125 0.037825372070074081
-12661.6875 0.052731525152921677
-13566.09375 0.072217538952827454
-14470.5 0.097162812948226929
-15374.90625 0.12842294573783875
-16279.312499999998 0.16675174236297607
-17183.71875 0.21270774304866791
-18088.125 0.26655161380767822
-18992.53125 0.32814401388168335
-19896.9375 0.39685589075088501
-20801.34375 0.47150507569313049
-21705.75 0.55033236742019653
-22610.15625 0.63102835416793823
-23514.5625 0.71081709861755371
-24418.96875 0.78659647703170776
-25323.375 0.85512828826904297
-26227.78125 0.91326272487640381
-27132.1875 0.95817607641220093
-28036.59375 0.9875977635383606
-28941 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123397" tv-usec="786104" name="set fade in shape">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-1292 0.00030300187063403428
-1938 0.00051356520270928741
-2584 0.00085512804798781872
-3230 0.0013987881829962134
-3876 0.0022478005848824978
-4522 0.0035485327243804932
-5168 0.0055033215321600437
-5813.9999999999991 0.0083846747875213623
-6460 0.012549684382975101
-7106 0.01845289021730423
-7752 0.026655165478587151
-8398 0.037825372070074081
-9044 0.052731525152921677
-9690 0.072217538952827454
-10336 0.097162812948226929
-10982 0.12842294573783875
-11627.999999999998 0.16675174236297607
-12274 0.21270774304866791
-12920 0.26655161380767822
-13566 0.32814401388168335
-14212 0.39685589075088501
-14858 0.47150507569313049
-15504 0.55033236742019653
-16150 0.63102835416793823
-16796 0.71081709861755371
-17442 0.78659647703170776
-18088 0.85512828826904297
-18734 0.91326272487640381
-19380 0.95817607641220093
-20026 0.9875977635383606
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="7874217" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123439" tv-usec="451748" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-689.0666666666657 0.0011718750465661287
-1378.1333333333314 0.0023437500931322575
-2067.2000000000007 0.0046875001862645149
-2756.2666666666664 0.0093750003725290298
-3445.3333333333358 0.01875000074505806
-4134.4000000000015 0.037500001490116119
-4823.4666666666672 0.075000002980232239
-10336 0.59999999999999998
-20672 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="7893189" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="7893189" y-origin="730">
-        <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
-          <MIDINotes region-id="16529">
-            <note note-id="7413"/>
-          </MIDINotes>
-          <Marker id="1878" start="1"/>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1698123451" tv-usec="673180" name="set fade in active">
-    <StatefulDiffCommand obj-id="30685" type-name="ARDOUR::AudioRegion">
+  <UndoTransaction tv-sec="1698559162" tv-usec="314154" name="Region end trim">
+    <StatefulDiffCommand obj-id="139535" type-name="ARDOUR::MidiRegion">
       <Changes>
-        <fade-in-active from="1" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30627" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <fade-in-active from="1" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30656" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <fade-in-active from="1" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30714" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <fade-in-active from="1" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30539" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <fade-in-active from="1" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30569" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <fade-in-active from="1" to="0"/>
-      </Changes>
-    </StatefulDiffCommand>
-    <StatefulDiffCommand obj-id="30598" type-name="ARDOUR::AudioRegion">
-      <Changes>
-        <fade-in-active from="1" to="0"/>
+        <length from="132300" to="90956"/>
+        <length-beats from="8" to="5.4999848828419999"/>
       </Changes>
     </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="912" left-frame="7709649" y-origin="730">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="12550376" y-origin="1012">
         <Selection>
           <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
+            <Region id="139535"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="912" left-frame="7709649" y-origin="730">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="12550376" y-origin="1012">
         <Selection>
           <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
+            <Region id="139535"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1698123456" tv-usec="521969" name="set fade in shape">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-551.26666666666597 0.0011718750465661287
-1102.5333333333319 0.0023437500931322575
-1653.8000000000006 0.0046875001862645149
-2205.0666666666666 0.0093750003725290298
-2756.3333333333353 0.01875000074505806
-3307.6000000000013 0.037500001490116119
-3858.8666666666672 0.075000002980232239
-8269 0.59999999999999998
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1698559257" tv-usec="179178" name="duplicate range selection">
+    <StatefulDiffCommand obj-id="6143" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="155529"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7918269" y-origin="730">
+      <SelectionMemento mouse-mode="MouseRange" zoom="228" left-frame="13423388" y-origin="646">
         <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
+          <StripableView id="2190"/>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
+          <AudioRange start="13655841" end="13672378"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7918269" y-origin="730">
+      <SelectionMemento mouse-mode="MouseRange" zoom="228" left-frame="13423388" y-origin="646">
         <Selection>
-          <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
-          </Regions>
+          <StripableView id="2190"/>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
+          <AudioRange start="13672378" end="13688915"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
   </UndoTransaction>
-  <UndoTransaction tv-sec="1698123459" tv-usec="912048" name="change fade in length">
-    <MementoCommand obj-id="30686" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30686" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30628" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30628" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30657" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30657" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30715" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30715" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30540" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30540" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30570" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30570" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-    </MementoCommand>
-    <MementoCommand obj-id="30599" type-name="ARDOUR::AutomationList">
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-16538 1
-</events>
-      </AutomationList>
-      <AutomationList automation-id="fadein" id="30599" interpolation-style="Curved" state="Off">
-        <events>0 1.0000000116860974e-07
-64 1
-</events>
-      </AutomationList>
-    </MementoCommand>
+  <UndoTransaction tv-sec="1698559266" tv-usec="802048" name="region drag">
+    <StatefulDiffCommand obj-id="155529" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <position from="13672378" to="13738528"/>
+        <beat from="826.749992441421" to="830.749992441421"/>
+      </Changes>
+    </StatefulDiffCommand>
     <MementoCommand obj-id="45" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7918269" y-origin="730">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="13541378" y-origin="646">
         <Selection>
           <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
+            <Region id="155529"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
         </Selection>
       </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="7918269" y-origin="730">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="13541378" y-origin="646">
         <Selection>
           <Regions>
-            <Region id="30685"/>
-            <Region id="30627"/>
-            <Region id="30656"/>
-            <Region id="30714"/>
-            <Region id="30539"/>
-            <Region id="30569"/>
-            <Region id="30598"/>
+            <Region id="155529"/>
           </Regions>
           <MIDINotes region-id="16529">
             <note note-id="7413"/>
           </MIDINotes>
-          <Marker id="1878" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559277" tv-usec="425705" name="region drag">
+    <StatefulDiffCommand obj-id="155529" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <position from="13738528" to="13732327"/>
+        <beat from="830.749992441421" to="830.37502645502639"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13644434" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13644434" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559282" tv-usec="1125" name="region drag">
+    <StatefulDiffCommand obj-id="155529" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <position from="13732327" to="13724058"/>
+        <beat from="830.37502645502639" to="829.8750113378685"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13644434" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13644434" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559307" tv-usec="889405" name="region drag">
+    <StatefulDiffCommand obj-id="155529" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <position from="13724058" to="13730259"/>
+        <beat from="829.8750113378685" to="830.249977324263"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="13530662" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="13530662" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559310" tv-usec="351234" name="region drag">
+    <StatefulDiffCommand obj-id="155529" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <position from="13730259" to="13732327"/>
+        <beat from="830.249977324263" to="830.37502645502639"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="13686443" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="57" left-frame="13686443" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155529"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559349" tv-usec="182445" name="duplicate range selection">
+    <StatefulDiffCommand obj-id="6163" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="155590"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseRange" zoom="114" left-frame="13571859" y-origin="646">
+        <Selection>
+          <StripableView id="2241"/>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <AudioRange start="13657908" end="13672378"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseRange" zoom="114" left-frame="13571859" y-origin="646">
+        <Selection>
+          <StripableView id="2241"/>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <AudioRange start="13672378" end="13686848"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559355" tv-usec="678310" name="region drag">
+    <StatefulDiffCommand obj-id="155590" type-name="ARDOUR::AudioRegion">
+      <Changes>
+        <position from="13672378" to="13734394"/>
+        <beat from="826.749992441421" to="830.50001511715789"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13571859" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155590"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13609707" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155590"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559376" tv-usec="186586" name="delete objects">
+    <StatefulDiffCommand obj-id="6163" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Remove id="155590"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="13557698" y-origin="646">
+        <Selection>
+          <Regions>
+            <Region id="155590"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="228" left-frame="13557698" y-origin="646">
+        <Selection>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559394" tv-usec="794155" name="move marker">
+    <MementoCommand obj-id="52" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="259" name="session" start="6863063" end="11658938" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1691468342"/>
+        <Location id="1878" name="Loop" start="9988650" end="10584000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1694058852"/>
+      </Locations>
+      <Locations>
+        <Location id="259" name="session" start="6863063" end="13734394" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1691468342"/>
+        <Location id="1878" name="Loop" start="9988650" end="10584000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1694058852"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="3666" left-frame="10525996" y-origin="646">
+        <Selection>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="3666" left-frame="10525996" y-origin="646">
+        <Selection>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559399" tv-usec="710330" name="move marker">
+    <MementoCommand obj-id="52" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="259" name="session" start="6863063" end="13734394" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1691468342"/>
+        <Location id="1878" name="Loop" start="9988650" end="10584000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1694058852"/>
+      </Locations>
+      <Locations>
+        <Location id="259" name="session" start="6863063" end="13767469" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1691468342"/>
+        <Location id="1878" name="Loop" start="9988650" end="10584000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1694058852"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="458" left-frame="13454900" y-origin="646">
+        <Selection>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="458" left-frame="13454900" y-origin="646">
+        <Selection>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559408" tv-usec="900905" name="move marker">
+    <MementoCommand obj-id="52" type-name="ARDOUR::Locations">
+      <Locations>
+        <Location id="259" name="session" start="6863063" end="13767469" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1691468342"/>
+        <Location id="1878" name="Loop" start="9988650" end="10584000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1694058852"/>
+      </Locations>
+      <Locations>
+        <Location id="259" name="session" start="6863063" end="13763334" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1691468342"/>
+        <Location id="1878" name="Loop" start="9988650" end="10584000" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1694058852"/>
+      </Locations>
+    </MementoCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13686068" y-origin="646">
+        <Selection>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="114" left-frame="13686068" y-origin="646">
+        <Selection>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559752" tv-usec="297016" name="mute region">
+    <StatefulDiffCommand obj-id="32145" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <muted from="1" to="0"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1318" left-frame="10898070" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="32145"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1318" left-frame="10898070" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="32145"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1698559767" tv-usec="524059" name="mute region">
+    <StatefulDiffCommand obj-id="32145" type-name="ARDOUR::MidiRegion">
+      <Changes/>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="45" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1318" left-frame="10898070" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="32145"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1318" left-frame="10898070" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="32145"/>
+          </Regions>
+          <MIDINotes region-id="16529">
+            <note note-id="7413"/>
+          </MIDINotes>
+          <Marker id="259" start="0"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
